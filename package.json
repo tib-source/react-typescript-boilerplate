@@ -1,0 +1,52 @@
+{
+  "name": "ecommerce-product-page-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve --mode=developement --env developement --open --hot",
+    "build": "webpack --mode=production --env production --progress",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tib-source/ecommerce-product-page-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tib-source/ecommerce-product-page-main/issues"
+  },
+  "homepage": "https://github.com/tib-source/ecommerce-product-page-main#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "fork-ts-checker-webpack-plugin": "^6.4.2",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
